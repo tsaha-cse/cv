@@ -3,6 +3,8 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
   line-height: 1.7rem;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -13,17 +15,15 @@ p {
   overflow: auto;
   background-color: #fff;
   position: absolute;
-  left: 18%;
-  right: 18%;
   top: 2%;
   bottom: 2%;
-  height: 100%;
+  max-width: 60%;
   border-radius: 5px;
-  padding: 40px;
+  padding: 100px;
 }
 
 .header {
-  width: 100%;
+  width: auto;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
